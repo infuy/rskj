@@ -35,6 +35,6 @@ public class TestNetConfig extends AbstractNetConfig {
         // Static call fix.
         add(233_000, new TestNetOrchid060Config());
         // TODO: define the second fork activation height
-        add(1_000_000, new TestNetSecondForkConfig());
+        add(2_000_000, new TestNetSecondForkConfig());
     }
 }
